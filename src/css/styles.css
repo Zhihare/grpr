@@ -1,0 +1,104 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./head.css');
+@import url('./hero-section1.css');
+@import url('./hero-section2.css');
+@import url('./steps-to-order-fruit-basket.css');
+@import url('./organic-fuit-gallery.css');
+@import url('./footer.css');
+@import url('./your-order-pop-up.css');
+@import url('./mobile-menu.css');
+@import url('./fresh-harvest-box.css');
+
+
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--lite-textcolor);
+  font-size: 16px;
+  background-color: var(--background-color);
+}
+
+:root {
+  --background-color: #AE1332;
+  --lite-textcolor: #FFFFFF;
+  --dark-textcolor: #000000;
+
+  --background-fresh-cart-green: #A4CB66;
+  --background-fresh-cart-yellow: #F5CE13;
+  --background-fresh-cart-rose: #F8766B;
+  --background-fresh-cart-watrmillon: #9DC262;
+}
+
+.container {
+  /*Phone*/
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  outline: 2px solid green;
+  outline-offset: -2px;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+.list {
+  list-style: none;
+
+}
+
+.link {
+  text-decoration: none;
+}

@@ -1,0 +1,72 @@
+<div class="backdrop is-hidden">
+    <div class="modal-window">
+        <h2 class="order-title">YOU ORDER</h2>
+        <button class="close-wind" type="button">
+            <svg class="close" width="24" height="24">
+                <use href="./img/icon.svg#icon-clos"></use>
+            </svg>
+        </button>
+        <form>
+            <ul class="cart-colection">
+                <li class="order-cart">
+                    <div class="title-section">
+                        <label class="cart-title">Strawberry Basket</label>
+                        <label class="categori">Plant</label>
+                    </div>
+                    <div class="img-container">
+                    </div>
+                    <input class="cart-checkbox" type="checkbox">
+                </li>
+                <li class="order-cart">
+                    <div class="title-section">
+                        <label class="cart-title">Apple Basket</label>
+                        <label class="categori">Plant</label>
+                    </div>
+                    <div class="img-container">
+                    </div>
+                    <input class="cart-checkbox" type="checkbox">
+                </li>
+                <li class="order-cart">
+                    <div class="title-section">
+                        <label class="cart-title">Fruits Basket</label>
+                        <label class="categori">Plant</label>
+                    </div>
+                    <div class="img-container">
+                    </div>
+                    <input class="cart-checkbox" type="checkbox">
+                </li>
+            </ul>
+            <div class="order-form">
+                <lable class="data-lable" for:="Full-name">
+                    <input type="text" class="data-input" name="Full-name" placeholder="&nbsp;">
+                    <span class="input-text-inform">Enter full name...</span>
+                </lable>
+                <lable class="data-lable" for:="mail">
+                    <input type="email" class="data-input" name="mail" placeholder="&nbsp;">
+                    <span class="input-text-inform">Enter email...</span>
+                </lable>
+                <lable class="data-lable" for:="card">
+                    <input type="text" class="data-input" name="card" maxlength="16" pattern="[0-9]{16}"
+                        placeholder="&nbsp;">
+                    <span class="input-text-inform">Enter card..</span>
+                </lable>
+                <lable class="data-lable" for:="Comment">
+                    <textarea class="data-input-comment" name="Comment" rows="4" placeholder="&nbsp;"></textarea>
+                    <span class="input-text-inform in-textarea">Enter comments...</span>
+                </lable>
+
+                <button class="order-button" type="submit">Submit</button>
+            </div>
+            <picture class="background-img">
+                <source
+                    srcset="./img/your-order-pop-up/IMG_9760_290.png 1x, ./img/your-order-pop-up/IMG_9760_580.png 2x"
+                    media="(max-width: 1279px)" sizes="(min-width: 480px) 480px, 100vw">
+                <source
+                    srcset="./img/your-order-pop-up/IMG_9760_471.png 1x, ./img/your-order-pop-up/IMG_9760_942.png 2x"
+                    media="(min-width: 1280px)" sizes="(min-width: 480px) 480px, 100vw">
+                <img src="./img/your-order-pop-up/IMG_9760_290.png" alt="women and Fresh Fruits">
+            </picture>
+        </form>
+
+    </div>
+</div>
